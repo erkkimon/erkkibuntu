@@ -20,7 +20,7 @@
         - gimp
         - libreoffice
         - vlc
-        - ffmpeg
+        - libav-tools
         - imagemagick
         - tmux
         - irssi
