@@ -26,4 +26,12 @@
         - irssi
         - audacity
         - git
+        - python
+        - nodejs
+        - npm
 
+    - name: Copy includes for ~/.bashrc
+      copy: src=files/.bash_aliases dest=~/.bash_aliases
+
+    - name: Copy nice ~/.vimrc 
+      copy: src=files/.vimrc dest=~/.vimrc
