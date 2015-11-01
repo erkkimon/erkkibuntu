@@ -6,6 +6,6 @@ I didn't want to install and configure everything manually every time I install 
 
 
 ```
-ansible-playbook -i "localhost," -c local local.yml 
+sudo ansible-playbook -i "localhost," -c local local.yml 
 ```
 
